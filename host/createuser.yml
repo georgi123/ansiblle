@@ -1,0 +1,11 @@
+---
+ - hosts: Local
+   strategy: debug
+   task:
+   - name: Add User
+     linux_user:
+     name: ansible_adm
+     password: "12345"
+     state: present 
+
+
