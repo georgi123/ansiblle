@@ -44,7 +44,8 @@
 [BASF]
 SAP
 [Local]
-127.0.0.1
+127.0.0.1 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass=password
+
 localhost
 [UBU]
 192.168.204.129
