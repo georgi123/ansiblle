@@ -41,6 +41,10 @@
 # leading 0s:
 
 ## db-[99:101]-node.example.com
+[all:vars]
+ansible_connection=ssh 
+ansible_ssh_user=root
+ansible_ssh_pass=password
 [BASF]
 SAP
 [Local]
