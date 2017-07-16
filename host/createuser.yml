@@ -2,8 +2,7 @@
  - hosts: Local
    strategy: debug
    task:
-   - name: Add User
-     linux_user:
+   - user: Add User    
      name: ansible_adm
      password: "12345"
      state: present 
